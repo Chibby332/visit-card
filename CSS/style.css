@@ -117,7 +117,7 @@ h2{
 
 /*1st section*/
 .first-section{
-  min-height: 680px;
+  min-height: 510px;
 }
 .first-section__box{
   margin-top:40px; 
@@ -135,3 +135,16 @@ h2{
 .centerelem{
   margin-right:50px;
 }
+.first-section__img{
+  margin-top:30px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.first-section__img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: 0 32%;
+}
+
+/*2st section*/
