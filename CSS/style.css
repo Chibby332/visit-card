@@ -93,6 +93,11 @@ h3{
   font-weight: 700;
   font-size: 30px;
 }
+h4{
+  font-weight: 600;
+  color:#828282;
+  font-size:16px;
+}
 
 
 /*Header*/
@@ -183,5 +188,49 @@ h3{
 
 
 .third-section{
-  
+  min-height: 495px;
 }
+.third-section__box{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 90px;
+}
+.third-section__text{
+  margin-top: 70px;
+}
+.third-section__minibox{
+  margin-top: 85px;
+  width: 100%;
+  margin-bottom:30px;
+}
+.third-section__list{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.third-section__list-article{
+  margin-top: 25px;
+}
+.third-section__stars-cont{
+  margin-top:40px;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section__item{
+  width: 160px;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1250px ) {
+  .third-section__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+
+/*4th section*/
+
+
