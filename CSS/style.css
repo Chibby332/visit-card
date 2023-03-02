@@ -136,7 +136,7 @@ h4{
 
 
 .first-section{
-  margin-top: 130px;
+  padding-top: 90px;
   min-height: 510px;
 }
 .first-section__box{
@@ -158,7 +158,7 @@ h4{
 .first-section__img{
   margin-top:30px;
   height: 400px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .first-section__img img{
    width: 100%;
@@ -173,7 +173,6 @@ h4{
 
 .second-section{
   background: #F6F6F6;
-  
 }
 .second-section__content{
   padding-top: 120px;
@@ -200,10 +199,10 @@ h4{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 90px;
+  padding-top: 90px;
 }
 .third-section__text{
-  margin-top: 70px;
+  padding-top: 70px;
 }
 .third-section__minibox{
   margin-top: 85px;
@@ -239,3 +238,11 @@ h4{
 /*4th section*/
 
 
+/*LINKS*/
+
+
+.links__item{
+  
+  position:relative;
+  bottom:90px;
+}
