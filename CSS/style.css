@@ -107,7 +107,11 @@ h4{
     height: 90px;
     display: flex;
     align-items: center;
-    
+    position: fixed;
+    top:0;
+    z-index: 100;  
+    width: 100%;
+    background-color: white;
 }
 .header__list{
   display: flex;
@@ -132,6 +136,7 @@ h4{
 
 
 .first-section{
+  margin-top: 130px;
   min-height: 510px;
 }
 .first-section__box{
