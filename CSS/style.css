@@ -99,12 +99,16 @@ h4{
   font-size:16px;
 }
 h5{
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 18px;
   text-decoration: underline;
   color: #070707;
 }
-
+h6{
+  font-weight: 400;
+  font-size: 14px;
+  color: #929292;
+}
 
 /*Header*/
 
@@ -272,6 +276,40 @@ h5{
 }
 .fourth-section__photoarticle{
   padding-top: 45px;
+}
+
+
+/*Footer*/
+
+.footer{
+
+}
+.footer__box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__article{
+  padding-top: 115px;
+}
+.footer__text{
+  padding-top: 20px;
+  text-align: center;
+}
+.footer__button{
+  padding-top:30px;
+}
+.footer__icons{
+  padding-top:85px;
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+.footer__lastword{
+  padding-top: 45px;
+  text-align: center;
+  padding-bottom: 125px;
 }
 /*LINKS*/
 
